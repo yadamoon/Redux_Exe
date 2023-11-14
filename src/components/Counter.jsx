@@ -9,7 +9,7 @@ import {
 const Counter = () => {
   const dispatch = useDispatch();
   return (
-    <div className="space-x-3">
+    <div className="space-x-3 text-center justifay-center space-y-4">
       <hr />
       <button
         className="bg-green-500 p-2 text-white rounded"
