@@ -6,7 +6,7 @@ const Display = () => {
   return (
     <div style={{ paddingTop: "200px" }}>
       <b>
-        <big className="value">Coins: {coin}</big>
+        <big className="text-3xl text-green-900">Coins:( {coin} )</big>
       </b>
     </div>
   );
