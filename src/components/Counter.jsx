@@ -4,6 +4,7 @@ import {
   decrement,
   incrementByAmount,
   decrementByAmount,
+  reset,
 } from "../Features/counter/counterSlice";
 
 const Counter = () => {
@@ -45,6 +46,10 @@ const Counter = () => {
         }}
       >
         DecrementBy 10
+      </button>
+
+      <button className="text-white bg-gray-600" onClick={dispatch(reset())}>
+        Reset
       </button>
     </div>
   );
