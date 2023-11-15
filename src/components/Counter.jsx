@@ -31,7 +31,7 @@ const Counter = () => {
       </button>
 
       <button
-        className="bg-green-500 p-2 text-white rounded"
+        className="bg-green-800 p-2 text-white rounded"
         onClick={() => {
           dispatch(incrementByAmount(10));
         }}
@@ -49,7 +49,7 @@ const Counter = () => {
       </button>
 
       <button
-        className="text-white bg-gray-600"
+        className="text-white bg-gray-600 p-2 rounded"
         onClick={() => {
           dispatch(resetCoin(0));
         }}
